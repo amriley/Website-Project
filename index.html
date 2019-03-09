@@ -16,22 +16,52 @@
     <h1> RECIPES FOR <big>YUMS!</big> </h1>
   </div>
   <div id=Navigate>
-  <ul id=Navigate_bar>
-      <li id=ABOUT>ABOUT</li>
-      <li id=CAKES>CAKES</li>
-      <li id=BISCUITS>BISCUITS</li>
-      <li id=PUDDINGS>PUDDINGS</li>
-  </ul>
-  </div>
-  <div id=introduction>
-  <p>
-    Creating tasties is something I've done ever since I can remember; watching my mum bake cakes & assisting with the
-    ever important licking of the bowl. When I got older I started experimenting more with flavours and starting to alter
-    recipes I found online until I was eventually just writing them for myself. Here I share with you my favourite
-    creations.
-  </p>
+      <ul id=Navigate_bar>
+          <li id=ABOUT>ABOUT</li>
+          <li id=CAKES>CAKES</li>
+          <li id=BISCUITS>BISCUITS</li>
+          <li id=PUDDINGS>PUDDINGS</li>
+        </ul>
   </div>
 
+
+  <!-- columns for recipe cards -->
+  <div class="row">
+    <div class="col-sm">
+      <div class="card" style="width: 20rem;">
+        <img src="images/flapjacks.jpg" class="card-img-top" alt="a tray of flapjacks">
+        <div class="card-body">
+          <h5 class="card-title">FLAPJACK</h5>
+          <p class="card-text">Gooey, buttery flapjacks with a crunchy surprise - does it get any better than that! Serve for breakfast, or as an afternoon snack!</p>
+          <a href="#" class="btn btn-primary">Make Me Now!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <div class="card" style="width: 20rem;">
+        <img src="images/blue-pancake.jpg" class="card-img-top" alt="a plate of pancakes with blueberrys ontop">
+        <div class="card-body">
+          <h5 class="card-title">PANCAKES</h5>
+          <p class="card-text">Fluffy, mouth watering pancakes. Perfect for a lazy Sunday morning in bed or to have with the whole family on Pancake Day!</p>
+          <a href="#" class="btn btn-primary">Make Me Now!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <div class="card" style="width: 20rem;">
+        <img src="images/mince-pies.jpg" class="card-img-top" alt="a plate of mincepies with festive decoration">
+        <div class="card-body">
+          <h5 class="card-title">MINCE PIES</h5>
+          <p class="card-text">Delicious, melt in the mouth pastry with festively flavoured mince meat inside. The perfect make for when the family is round for Christmas</p>
+          <a href="#" class="btn btn-primary">Make Me Now!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Bootstrap carousel-->
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -54,6 +84,12 @@
   </a>
 </div>
 
+
+  <!--Bootstrap JavaScript-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+  <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
