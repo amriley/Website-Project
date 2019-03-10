@@ -1,66 +1,60 @@
 /* Hastag for ID's and full stops for classes */
 
+body {
+    background-color: rgb(247 247 247);
+    }
 
 #header {
       display: block;
-      padding: 100px 20px 100px 20px;
-      background-position: center top;
+      padding: 150px 20px 150px 20px;
+      background-position: top center;
       background-image: url("../images/bake-home.jpg");
-      opacity: 0.7;
       background-size: cover;
       background-repeat: no-repeat
     }
 
 h1 {
-    font-family: Verdana, serif;
-    font-weight: bold;
+    font-family: 'Carrois Gothic SC', sans-serif;
     text-align: center;
     color: rgb(0,0,0);
-    font-size: 40px;
+    font-size: 50px;
     }
 
+.navbar {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 30px;
+}
 
-#Navigate_bar {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    font-family: arial;
-    font-size: 14px;
-    padding: 30px 40px 30px 40px;
-    }
+.nav-link {
+    align-content: space-between;
+    margin: 0px 65px 0px 65px;
+    transition: all .2s ease-in-out;
+  }
 
-#ABOUT {
-    border-style: solid;
-    border-color: rgb(145,153,165);
-    padding: 5px 10px 5px 10px;
-    }
+.nav-link:hover {
+    transform: scale(1.1);
+}
 
-#CAKES {
-    border-style: solid;
-    border-color: rgb(184 189 196);
-    padding: 5px 10px 5px 10px;
-    }
-
-#PUDDINGS {
-    border-style: solid;
-    border-color: rgb(184 189 196);
-    padding: 5px 10px 5px 10px;
-    }
-
-#BISCUITS {
-    border-style: solid;
-    border-color: rgb(184 189 196);
-    padding: 5px 10px 5px 10px;
-    }
 .card {
     margin-left: 55px;
     margin-bottom: 60px;
+    margin-top: 40px;
     text-align: center;
     color: rgb(0 0 0);
   }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+
+.card-title {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 40px;
+}
+
+.card-text {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 25px;
+}
 
 .btn-primary {
     background-color: rgb(184 189 196);
