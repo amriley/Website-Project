@@ -3,9 +3,13 @@
 .navbar {
     font-family: 'Carrois Gothic SC', sans-serif;
     font-size: 30px;
+    display: flex;
+    align-content: space-between;
+    margin: 0px 65px 0px 65px;
 }
 
 .nav-link {
+    display: flex;
     align-content: space-between;
     margin: 0px 65px 0px 65px;
     transition: all .2s ease-in-out;
@@ -49,3 +53,29 @@
     color: rgb(255 255 255);
 
 }
+
+.form {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+    margin: 25px 50px 25px 50px;
+    padding: 25px 50px 25px 50px;
+    background-color: rgb(247 208 69);
+    border-radius: 25px;
+}
+
+.form-control {
+    font-size: 25px;
+}
+
+.btn {
+    font-size: 25px;
+    background-color: rgb(255 255 255);
+    border-color: rgb(184 189 196);
+    color: rgb(0 0 0);
+    }
+
+
+.btn:hover {
+    background-color: rgb(0 0 0);
+    border-color: inherit;
+    color: rgb(255 255 255);

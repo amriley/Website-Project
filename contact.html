@@ -7,15 +7,16 @@
   <!--Internal CSS file -->
   <link rel="stylesheet" href="css/styles.css">
 
-  <title>About The Baker</title>
+  <title>Contact Us</title>
 
   <!-- Meta Data -->
   <script src+"http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 </head>
 
 <body>
-  <header id=About>
-    <h1 id=baker> Meet The Baker </h1>
+  <header id=contact>
+    <h1 id=contact-head> Get In Touch </h1>
   </header>
 
   <!-- Navigation Bar-->
@@ -28,17 +29,17 @@
     <li class="nav-item">
       <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
     </li>
-    <u>
-      <li class="nav-item active">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-    </u> 
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">About</a>
+    </li>
     <li class="nav-item">
       <a class="nav-link" href="equipment.html">Equipment</a>
     </li>
-    <li class="nav-item">
+    <u>
+    <li class="nav-item active">
       <a class="nav-link" href="contact.html">Contact</a>
     </li>
+    </u>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Recipes
@@ -55,22 +56,40 @@
 
   <!-- column for introduction & image -->
   <div class="row">
-    <div class="col-sm" id="intro">
-        Baking is such a great way to de-stress and unwind whilst making something which brings people together to enjoy the lovely things you've made.
-        The earliest memories of baking that I have are with my nanna, she would love making cakes, flapjacks, welsh cakes, and so many other things with us and, as is to be predicted, we were always on hand to lick the bowl!
-        With these recipes which I've put on this site you can share in some of the food which have been at the root of some of the greatest memories I have.
+    <div class="col-sm" id="contact-us">
+      Have a question, a recipe to share, or even some pictures of your delicious bakes?! I's LOVE to hear from you! Just fill out the opposite form & i've be in touch soon!
       </div>
-      <div class="col-sm">
-          <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/47167927_1962291627190161_8488526303857737728_n.jpg?_nc_cat=111&_nc_ht=scontent-lht6-1.xx&oh=9a2ee5695fd95f4f13dd3eab87338099&oe=5D21B378" class="meet-the-baker" alt="a lady with a white dog">
-        </div>
     </div>
 
-    <!--Bootstrap JavaScript-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
-    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
-    <script src="js/background.js"></script>
+  <div class="form">
+    <div class="col-sum" id="form">
+      <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Your Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+<button type="button" class="btn btn-outline-secondary" id="click_me">Send Message</button>
+</div>
+
+  <!--Bootstrap JavaScript-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+  <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+  <script src="js/background.js"></script>
+  <script type="text/JavaScript">
+    $(function(){
+        document.getElementById('click_me').onclick =
+          function () {
+            alert ('Thanks for sending my your message');
+          };
+    });
+    </script>
 
 </body>
 </html>
