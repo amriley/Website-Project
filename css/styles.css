@@ -127,6 +127,36 @@ h1 {
   padding: 25px 50px 25px 50px;
 }
 
+.flapjack {
+  image-size: 500px;
+  border: 10px solid rgb(184 189 196);
+  border-radius: 250px;
+}
+
+#flapjackrecipetitle {
+  font-size: 60px;
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center;
+  color: rgb(0 0 0);
+}
+
+.recipeheaders {
+  text-align: left;
+  font-size: 40px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+.flapjackingredients {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 30px;
+  text-align: left;
+}
+
+#method {
+  margin-top: 20px;
+  martgin-left: 0px;
+}
 
 /* Bootstap CSS*/
 .navbar {
