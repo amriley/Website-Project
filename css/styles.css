@@ -110,6 +110,24 @@ h1 {
   padding: 25px 50px 25px 50px;
 }
 
+#flapjackhead {
+  display: block;
+  padding: 150px 20px 150px 20px;
+  background-position: center;
+  background-image: url("../images/flapjackbanner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+#flapjack-title {
+  text-align: left;
+  margin-right: 50px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 60px;
+  padding: 25px 50px 25px 50px;
+}
+
+
 /* Bootstap CSS*/
 .navbar {
     font-family: 'Carrois Gothic SC', sans-serif;
